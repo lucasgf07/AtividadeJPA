@@ -16,10 +16,21 @@ public class Artigo implements Serializable {
     private String orientador;
     private String coautores;
     private String modalidade;
+
+    @Temporal(TemporalType.DATE)
     private Date dataSubmissao;
+
     private String urlDownload;
 
     public Artigo() {
+    }
+
+    public Artigo(String titulo, String orientador, String coautores, String modalidade, String urlDownload) {
+        this.titulo = titulo;
+        this.orientador = orientador;
+        this.coautores = coautores;
+        this.modalidade = modalidade;
+        this.urlDownload = urlDownload;
     }
 
     public Artigo(String titulo, String orientador, String coautores, String modalidade, Date dataSubmissao, String urlDownload) {
