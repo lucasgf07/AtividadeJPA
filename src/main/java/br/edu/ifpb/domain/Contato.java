@@ -13,14 +13,17 @@ public class Contato implements Serializable {
     private String telefoneComercial;
     private String telefoneResidencial;
     private String telefoneCelular;
+    @OneToOne
+    private Participante participante;
 
     public Contato() {
     }
 
-    public Contato(String telefoneComercial, String telefoneResidencial, String telefoneCelular) {
+    public Contato(String telefoneComercial, String telefoneResidencial, String telefoneCelular, Participante participante) {
         this.telefoneComercial = telefoneComercial;
         this.telefoneResidencial = telefoneResidencial;
         this.telefoneCelular = telefoneCelular;
+        this.participante = participante;
     }
 
     public Integer getId() {
@@ -53,5 +56,13 @@ public class Contato implements Serializable {
 
     public void setTelefoneCelular(String telefoneCelular) {
         this.telefoneCelular = telefoneCelular;
+    }
+
+    public Participante getParticipante() {
+        return participante;
+    }
+
+    public void setParticipante(Participante participante) {
+        this.participante = participante;
     }
 }

@@ -22,24 +22,20 @@ public class Artigo implements Serializable {
 
     private String urlDownload;
 
+    @ManyToOne
+    private Participante participante;
+
     public Artigo() {
     }
 
-    public Artigo(String titulo, String orientador, String coautores, String modalidade, String urlDownload) {
-        this.titulo = titulo;
-        this.orientador = orientador;
-        this.coautores = coautores;
-        this.modalidade = modalidade;
-        this.urlDownload = urlDownload;
-    }
-
-    public Artigo(String titulo, String orientador, String coautores, String modalidade, Date dataSubmissao, String urlDownload) {
+    public Artigo(String titulo, String orientador, String coautores, String modalidade, Date dataSubmissao, String urlDownload, Participante participante) {
         this.titulo = titulo;
         this.orientador = orientador;
         this.coautores = coautores;
         this.modalidade = modalidade;
         this.dataSubmissao = dataSubmissao;
         this.urlDownload = urlDownload;
+        this.participante = participante;
     }
 
     public Integer getId() {
@@ -96,5 +92,13 @@ public class Artigo implements Serializable {
 
     public void setUrlDownload(String urlDownload) {
         this.urlDownload = urlDownload;
+    }
+
+    public Participante getParticipante() {
+        return participante;
+    }
+
+    public void setParticipante(Participante participante) {
+        this.participante = participante;
     }
 }

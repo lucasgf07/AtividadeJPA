@@ -19,16 +19,16 @@ public class Participante implements Serializable {
     private String tipoUsuario;
     private String profissao;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Endereco endereco;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Contato contato;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Artigo> artigos;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Inscricao> inscricoes;
 
     public Participante() {

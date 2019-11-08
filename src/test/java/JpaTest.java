@@ -23,8 +23,8 @@ public class JpaTest {
     @Deployment
     public static JavaArchive criarArquivoTeste() {
         return ShrinkWrap.create(JavaArchive.class)
-                .addPackage(ParticipanteDao.class.getPackage())
-                .addPackage(Participante.class.getPackage())
+                .addPackage(ArtigoDao.class.getPackage())
+                .addPackage(Artigo.class.getPackage())
                 .addAsResource("META-INF/persistence.xml");
     }
 

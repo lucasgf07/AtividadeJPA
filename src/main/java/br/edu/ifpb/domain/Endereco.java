@@ -16,18 +16,20 @@ public class Endereco implements Serializable {
     private String cidade;
     private String estado;
     private String cep;
+    @OneToOne
+    private Participante participante;
 
     public Endereco() {
     }
 
-    public Endereco(Integer id, String logradouro, String numero, String bairro, String cidade, String estado, String cep) {
-        this.id = id;
+    public Endereco(String logradouro, String numero, String bairro, String cidade, String estado, String cep, Participante participante) {
         this.logradouro = logradouro;
         this.numero = numero;
         this.bairro = bairro;
         this.cidade = cidade;
         this.estado = estado;
         this.cep = cep;
+        this.participante = participante;
     }
 
     public Integer getId() {
@@ -84,5 +86,13 @@ public class Endereco implements Serializable {
 
     public void setCep(String cep) {
         this.cep = cep;
+    }
+
+    public Participante getParticipante() {
+        return participante;
+    }
+
+    public void setParticipante(Participante participante) {
+        this.participante = participante;
     }
 }
