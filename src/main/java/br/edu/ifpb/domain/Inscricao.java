@@ -17,20 +17,17 @@ public class Inscricao implements Serializable {
     private Double preco;
     private String tipoEvento;
     private String tipoParticipacao;
-    @ManyToOne
-    private Participante participante;
+
 
     public Inscricao() {
     }
 
-
-    public Inscricao(String status, Date dataInscricao, Double preco, String tipoEvento, String tipoParticipacao, Participante participante) {
+    public Inscricao(String status, Date dataInscricao, Double preco, String tipoEvento, String tipoParticipacao) {
         this.status = status;
         this.dataInscricao = dataInscricao;
         this.preco = preco;
         this.tipoEvento = tipoEvento;
         this.tipoParticipacao = tipoParticipacao;
-        this.participante = participante;
     }
 
     public Integer getId() {
@@ -81,11 +78,4 @@ public class Inscricao implements Serializable {
         this.tipoParticipacao = tipoParticipacao;
     }
 
-    public Participante getParticipante() {
-        return participante;
-    }
-
-    public void setParticipante(Participante participante) {
-        this.participante = participante;
-    }
 }

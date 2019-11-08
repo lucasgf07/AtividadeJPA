@@ -6,8 +6,10 @@
     <groupId>br.edu.ifpb</groupId>
     <artifactId>AtividadeJPA</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>AtividadeJPA Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <packaging>war</packaging>
+    <name>AtividadeJPA</name>
+
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>

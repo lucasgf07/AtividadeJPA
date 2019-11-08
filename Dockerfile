@@ -1,2 +1,2 @@
 FROM payara/server-full
-COPY ./target/dac-jsf-0.1-SNAPSHOT.war $DEPLOY_DIR
+COPY ./target/AtividadeJPA-1.0-SNAPSHOT.war $DEPLOY_DIR

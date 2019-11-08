@@ -7,17 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3a00a3-3a2b-4bae-bf33-23d90c69a700" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arquillianContainers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Artigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Artigo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtividadeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtividadeJPA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/dao/ArtigoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/dao/ArtigoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/dao/ParticipanteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/dao/ParticipanteDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Inscricao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/domain/Participante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JpaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources-glassfish-embedded/glassfish-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources-glassfish-embedded/glassfish-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/arquillian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/arquillian.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JpaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JpaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JpaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JpaTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JpaTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JpaTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/arquillian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/arquillian.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -56,13 +71,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1T21n5u7cmYYvhrVnW8Rte63mdh" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repositorio/dac/exemplos/exemplo-jpa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,6 +95,14 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14941406" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
